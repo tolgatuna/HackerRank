@@ -1,4 +1,4 @@
-package testdouble;
+package greeting;
 
 import java.util.ArrayList;
 import java.util.Arrays;

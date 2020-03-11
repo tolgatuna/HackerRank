@@ -1,4 +1,4 @@
-package testdouble;
+package greeting;
 
 import org.junit.Test;
 
@@ -10,7 +10,6 @@ public class GreetingKataTest {
     @Test
     public void shouldReturnHelloName() {
         assertEquals("Hello, Bob.", greetingKata.greet("Bob"));
-
     }
 
     @Test
