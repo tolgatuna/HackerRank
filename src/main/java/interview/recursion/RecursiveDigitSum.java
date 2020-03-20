@@ -1,4 +1,4 @@
-package algorithms.recursion;
+package interview.recursion;
 
 public class RecursiveDigitSum {
     // Complete the superDigit function below.
