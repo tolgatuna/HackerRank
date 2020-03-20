@@ -1,10 +1,10 @@
-package interview.arrays.Array2D;
+package interview.arrays;
 
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class SolutionTest {
+public class Array2DTest {
     @Test
     public void testHourglassSum() {
         int arr[][] = {
@@ -15,7 +15,7 @@ public class SolutionTest {
                 {0, 0, 0, 2, 0, 0},
                 {0, 0, 1, 2, 4, 0},
         };
-        assertEquals(19, Solution.hourglassSum(arr));
+        assertEquals(19, Array2D.hourglassSum(arr));
 
 
         int arr2[][] = {
@@ -26,6 +26,6 @@ public class SolutionTest {
                 {0, 0, 0, -2, 0, 0},
                 {0, 0, 1, 2, 4, 0}
         };
-        assertEquals(28, Solution.hourglassSum(arr2));
+        assertEquals(28, Array2D.hourglassSum(arr2));
     }
 }

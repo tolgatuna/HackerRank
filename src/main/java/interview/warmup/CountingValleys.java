@@ -1,9 +1,9 @@
-package interview.warmup.CountingValleys;
+package interview.warmup;
 
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class CountingValleys {
 
     // Complete the countingValleys function below.
     static int countingValleys(int n, String s) {

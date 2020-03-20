@@ -1,4 +1,4 @@
-package interview.warmup.SockMerchant;
+package interview.warmup;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 
-public class Solution {
+public class SockMerchant {
 
     // Complete the sockMerchant function below.
     static int sockMerchant(int n, int[] ar) {

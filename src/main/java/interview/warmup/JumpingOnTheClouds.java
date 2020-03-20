@@ -1,11 +1,11 @@
-package interview.warmup.JumpingOnTheClouds;
+package interview.warmup;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Solution {
+public class JumpingOnTheClouds {
 
     // Complete the jumpingOnClouds function below.
     static int jumpingOnClouds(int[] c) {

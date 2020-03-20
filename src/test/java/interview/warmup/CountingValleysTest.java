@@ -1,20 +1,20 @@
-package interview.warmup.CountingValleys;
+package interview.warmup;
 
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class SolutionTest {
+public class CountingValleysTest {
 
     @Test
     public void shouldReturnOneForGivenPath() {
         String s = "UDDDUDUU";
-        assertEquals(1, Solution.countingValleys(8, s));
+        assertEquals(1, CountingValleys.countingValleys(8, s));
     }
 
     @Test
     public void shouldReturnTwoForGivenPath() {
         String s = "DDUUDDUDUUUD";
-        assertEquals(2, Solution.countingValleys(12, s));
+        assertEquals(2, CountingValleys.countingValleys(12, s));
     }
 }

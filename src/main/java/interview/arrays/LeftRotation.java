@@ -1,4 +1,4 @@
-package interview.arrays.LeftRotation;
+package interview.arrays;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class Solution {
+public class LeftRotation {
 
     static int[] rotLeft(int[] a, int d) {
         List<Integer> arrList = Arrays.stream(a).boxed().collect(Collectors.toList());

@@ -1,4 +1,4 @@
-package interview.arrays.Array2D;
+package interview.arrays;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-public class Solution {
+public class Array2D {
 
 
     static int hourglassSum(int[][] arr) {

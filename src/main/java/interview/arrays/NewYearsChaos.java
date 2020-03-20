@@ -1,8 +1,8 @@
-package interview.arrays.NewYearsChaos;
+package interview.arrays;
 
 import java.util.*;
 
-public class Solution {
+public class NewYearsChaos {
 
     static void minimumBribes(int[] q) {
         Map<Integer, Integer> map = new HashMap();

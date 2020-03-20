@@ -1,11 +1,11 @@
-package interview.warmup.RepeatedString;
+package interview.warmup;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Solution {
+public class RepeatedString {
 
     static long repeatedString(String s, long n) {
         long count = 0;
