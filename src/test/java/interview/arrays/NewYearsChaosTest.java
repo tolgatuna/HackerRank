@@ -1,48 +1,28 @@
 package interview.arrays;
 
-import org.junit.After;
-import org.junit.Before;
+import org.hamcrest.Matchers;
 import org.junit.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 public class NewYearsChaosTest {
 
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private final PrintStream originalOut = System.out;
-
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outContent));
-    }
-
-    @After
-    public void restoreStreams() {
-        System.setOut(originalOut);
-    }
-
     @Test
-    public void testMinimumBribes01() {
-        int arr[] = {2, 5, 1, 3, 4};
-
-        NewYearsChaos.minimumBribes(arr);
-        assertEquals("hello again", outContent.toString());
-    }
-
-    @Test
-    public void testMinimumBribes02() {
+    public void testMinimumBribes01_1() {
         int arr[] = {2, 1, 5, 3, 4};
-        NewYearsChaos.minimumBribes(arr);
-        assertEquals("hello again", outContent.toString());
+        assertThat(NewYearsChaos.minimumBribes(arr), Matchers.is("3"));
     }
 
     @Test
-    public void testMinimumBribes03() {
-        int arr[] = {1, 2, 5, 3, 4, 7, 8, 6};
-        NewYearsChaos.minimumBribes(arr);
-        assertEquals("4\n", outContent.toString());
+    public void testMinimumBribes01_2() {
+        int arr[] = {2, 5, 1, 3, 4};
+        assertThat(NewYearsChaos.minimumBribes(arr), Matchers.is("Too chaotic"));
+    }
+
+    @Test
+    public void testMinimumBribes02_1() {
+        int arr[] = {1, 2, 5, 3, 7, 8, 6, 4};
+
+        assertThat(NewYearsChaos.minimumBribes(arr), Matchers.is("7"));
     }
 }
