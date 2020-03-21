@@ -1,6 +1,5 @@
-package interview.arrays;
+package interview.array;
 
-import interview.arrays.LeftRotation;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;

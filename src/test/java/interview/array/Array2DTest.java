@@ -1,4 +1,4 @@
-package interview.arrays;
+package interview.array;
 
 import org.junit.Test;
 

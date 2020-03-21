@@ -1,4 +1,4 @@
-package interview.arrays;
+package interview.array;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
